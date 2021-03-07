@@ -193,7 +193,7 @@ public class CobaltLuaMachine implements ILuaMachine {
             return table;
         }
         default:
-            return null;
+            return value;
         }
     }
 
@@ -353,6 +353,9 @@ public class CobaltLuaMachine implements ILuaMachine {
     private LuaValue toValue(@Nullable Object object, @Nullable Map<Object, LuaValue> values) {
         if (object == null) {
             return Constants.NIL;
+        }
+        if (object instanceof LuaValue) {
+            return (LuaValue) object;
         }
         if (object instanceof Number) {
             return valueOf(((Number) object).doubleValue());
