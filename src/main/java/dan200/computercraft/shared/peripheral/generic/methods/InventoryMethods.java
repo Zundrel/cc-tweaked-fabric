@@ -223,7 +223,7 @@ public class InventoryMethods implements GenericSource
         // Validate slots
         int actualLimit = limit.orElse( Integer.MAX_VALUE );
         assertBetween( fromSlot, 1, fromStorage.size(), "From slot out of range (%s)" );
-        if( toSlot.isPresent() ) assertBetween( toSlot.get(), 1, to.size(), "To slot out of range (%s)" );
+        if( toSlot.isPresent() ) assertBetween( toSlot.get(), 1, toStorage.size(), "To slot out of range (%s)" );
 
         if( actualLimit <= 0 ) return 0;
         return moveItem( fromStorage, fromSlot - 1, toStorage, toSlot.orElse( 0 ) - 1, actualLimit );
