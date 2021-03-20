@@ -57,7 +57,7 @@ public final class ModelTransformer {
         for (int v = 0; v < 4; ++v) {
             for (VertexFormatElement element : format.getElements()) // For each vertex element
             {
-                int start = offsetBytes / 4;
+                int start = offsetBytes / Integer.BYTES;
                 if (element.getType() == VertexFormatElement.Type.POSITION && element.getFormat() == VertexFormatElement.Format.FLOAT) // When we find a position element
                 {
                     Vector4f pos = new Vector4f(Float.intBitsToFloat(vertexData[start]),
