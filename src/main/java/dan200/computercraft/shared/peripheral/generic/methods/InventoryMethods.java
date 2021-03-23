@@ -74,9 +74,13 @@ public class InventoryMethods implements GenericSource
      * @return The name of this inventory, or {@code nil} if not present.
      */
     @LuaFunction( mainThread = true )
-    public static String name( Nameable inventory )
+    public static String name( Inventory inventory )
     {
-        return inventory.hasCustomName() ? inventory.getName().asString() : null;
+        if ( inventory instanceof Nameable ) {
+            Nameable i = (Nameable)inventory;
+            return i.hasCustomName() ? i.getName().asString() : null;
+        }
+        return null;
     }
 
     /**
