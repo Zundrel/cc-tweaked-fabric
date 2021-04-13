@@ -9,7 +9,7 @@ targetCompatibility = JavaVersion.VERSION_1_8
 version = mod_version
 
 group = "dan200.computercraft"
-archivesBaseName = "cc-restiched"
+archivesBaseName = "cc-retweaked"
 
 repositories {
     mavenCentral()
