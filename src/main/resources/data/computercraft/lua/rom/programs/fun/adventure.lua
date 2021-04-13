@@ -21,7 +21,7 @@ local function hasRivers(_nBiome)
 end
 
 local items = {
-    ["no tea"] = {
+    ["there is no netherite"] = {
         droppable = false,
         desc = "Pull yourself together man.",
     },
@@ -144,7 +144,7 @@ local items = {
         tool = true,
         toolLevel = 4,
         toolType = "pick",
-        desc = "Best. Pickaxe. Ever.",
+        desc = "Best. Pickaxe. Ever until netherite.",
     },
     ["a wooden sword"] = {
         aliases = { "sword", "wooden sword", "wood sword" },
@@ -172,7 +172,7 @@ local items = {
         tool = true,
         toolLevel = 4,
         toolType = "sword",
-        desc = "Best. Sword. Ever.",
+        desc = "Best. Sword. Ever until  netherite.",
     },
     ["a wooden shovel"] = {
         aliases = { "shovel", "wooden shovel", "wood shovel" },
