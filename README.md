@@ -4,7 +4,7 @@ turtles and more to Minecraft.
 
 *it runs and works-ish?
 
-PRs welcome
+>PRs welcome
 
 ## What?
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
