@@ -1,5 +1,5 @@
 # ![CC: ReTweaked](logo.png)
-This is an WIP fork of a fork of a fork of a fork of a fork/port of an update /port /fork of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
+This is an WIP fork of a fork of a fork of a fork of a fork/port of an update/port/fork of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
 turtles and more to Minecraft.
 
 *it runs and works-ish?
