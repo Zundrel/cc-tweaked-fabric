@@ -8,10 +8,10 @@ PRs welcome
 
 ## What?
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
-The only problem I have with is... the old textures.
+The only problem I have with is... the old textures so I manually am fixing and tweaking them along with some other things.
 
 
-##Bleeding Edge Builds
+## Bleeding Edge Builds
 Bleeding edge builds can be found here (https://github.com/3prm3/cc-retweaked/actions)
 
 ## Community
