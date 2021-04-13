@@ -1,15 +1,14 @@
 # ![CC: ReTweaked](logo.png)
-# This is an Work In Progress Fork
+This is an Work In Progress Fork of a fork of a fork of a fork of a fork/port of an update /port /fork of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
+turtles and more to Minecraft.
+
 *it runs and works-ish?
 
 PRs welcome
 
-# ![CC: ReTweaked](logo.png)
-CC: ReTweaked is a fork of a fork of a fork of a fork/port of an update /port /fork of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
-turtles and more to Minecraft.
-
 ## What?
-ComputerCraft 
+ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
+The only problem I have with is... the old textures.
 
 
 ##Bleeding Edge Builds
