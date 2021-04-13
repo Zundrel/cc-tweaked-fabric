@@ -15,7 +15,8 @@
         "Aaron Mills",
         "SquidDev",
         "parly",
-        "Merith.TK"
+        "Merith.TK",
+        "3prm3"
     ],
     "depends": {
         "fabricloader": ">=0.4.0",
