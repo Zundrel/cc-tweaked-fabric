@@ -16,7 +16,7 @@ Bleeding edge builds can be found here (https://github.com/3prm3/cc-retweaked/ac
 
 ## Community
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
-ComputerCraft here is the forum a [forum](https://forums.computercraft.cc/) 
+ComputerCraft here is the [forum](https://forums.computercraft.cc/) 
 
 ## Known Issues
 Main Known issue
