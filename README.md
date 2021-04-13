@@ -1,10 +1,10 @@
 # ![CC: ReTweaked](logo.png)
-This is an WIP fork of a fork of a fork of a fork of a fork/port of an update/port/fork of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
+This is an WIP [fork](https://github.com/Merith-TK/cc-restitched) of a [fork](https://github.com/Zundrel/cc-tweaked-fabric) of a [fork](https://github.com/ArchivedProjects/cc-tweaked-fabric)  of a [fork/port](https://github.com/mystiacraft/cc-tweaked-fabric) of an [update/port/fork](https://github.com/SquidDev-CC/CC-Tweaked) of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
 turtles and more to Minecraft.
-
+0
 *it runs and works-ish?
 
->PRs welcome
+PRs welcome
 
 ## What?
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
