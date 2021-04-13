@@ -12,7 +12,7 @@ The only problem I have with is... the old textures so I manually am fixing and 
 
 
 ## Bleeding Edge Builds
-Bleeding edge builds can be found here (https://github.com/3prm3/cc-retweaked/actions)
+Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/actions)
 
 ## Community
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
