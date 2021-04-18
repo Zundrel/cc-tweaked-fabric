@@ -16,7 +16,7 @@ Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/a
 
 ## Community
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
-ComputerCraft here is the [forum](https://forums.computercraft.cc/) 
+ComputerCraft, here is the [forum](https://forums.computercraft.cc/) 
 
 ## Relation to CCTweaks?
 This mod has nothing to do with CCTweaks, though there is no denying the name is a throwback to it. That being said,
