@@ -18,6 +18,12 @@ Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/a
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
 ComputerCraft here is the [forum](https://forums.computercraft.cc/) 
 
+## Relation to CCTweaks?
+This mod has nothing to do with CCTweaks, though there is no denying the name is a throwback to it. That being said,
+several features have been included, such as full block modems, the Cobalt runtime and map-like rendering for pocket
+computers.
+
+
 ## Known Issues
 Main Known issue
 * Mods that add blocks that can be used as peripherals for CC:T On forge, dont work with CC:R.
