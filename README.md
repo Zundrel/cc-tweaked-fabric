@@ -15,7 +15,7 @@ Any contribution is welcome, be that using the mod, reporting bugs or contributi
 develop CC:T, you'll need to follow these steps:
 -**Fork the repository:** Make a github account press the fork button.
 -**Edit the code** Edit the code and make your changes.
--**Turn on github actions* Press the "Enable Workflows" button or set up a new gradle workflow and copy-paste [this](https://github.com/3prm3/cc-retweaked/blob/v1.94.2/.github/workflows/gradle.yml) into your worklow's yml, dowload the artifacts and put in your mods folder and check for bugs.
+-**Turn on github actions* Press the 'Enable Workflows' button or set up a new gradle workflow and copy-paste [this](https://github.com/3prm3/cc-retweaked/blob/v1.94.2/.github/workflows/gradle.yml) into your worklow's yml, dowload the artifacts and put in your mods folder and check for bugs.
 -**Make a pull request** press the 'New Pull Request' button and set the repository on the left to 3prm3/cc-retweaked and set the repository on the right to your repository.
 
 ## Bleeding Edge Builds
