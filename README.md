@@ -10,9 +10,15 @@ PRs welcome
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
 The only problem I have with is... the old textures so I manually am fixing and tweaking them along with some other things.
 
+## Contributing
+Any contribution is welcome, be that using the mod, reporting bugs or contributing code. In order to start helping
+develop CC:T, you'll need to follow these steps:
+-**Fork the repository:** Make a github account press the fork button.
+-**Edit the code** Edit the code and make your changes.
+-**Make a pull request** press the 'New Pull Request' button and set the repository on the left to 3prm3/cc-retweaked and set the repository on the right to your repository.
 
 ## Bleeding Edge Builds
-Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/actions)
+Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/actions) at github actions to simplify things 
 
 ## Community
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
