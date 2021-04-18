@@ -1,6 +1,6 @@
 local tBiomes = {
     "in a forest",
-    "in a pine forest",
+    "in a birch forest",
     "knee deep in a swamp",
     "in a mountain range",
     "in a desert",
@@ -144,7 +144,7 @@ local items = {
         tool = true,
         toolLevel = 4,
         toolType = "pick",
-        desc = "Best. Pickaxe. Ever until netherite.",
+        desc = "Best. Pickaxe. Ever.",
     },
     ["a wooden sword"] = {
         aliases = { "sword", "wooden sword", "wood sword" },
@@ -172,7 +172,7 @@ local items = {
         tool = true,
         toolLevel = 4,
         toolType = "sword",
-        desc = "Best. Sword. Ever until  netherite.",
+        desc = "Best. Sword. Ever.",
     },
     ["a wooden shovel"] = {
         aliases = { "shovel", "wooden shovel", "wood shovel" },
