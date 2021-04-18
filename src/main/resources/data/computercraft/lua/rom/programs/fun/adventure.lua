@@ -664,7 +664,7 @@ function commands.look(_sTarget)
         if room.trees and (_sTarget == "tree" or _sTarget == "trees") then
             print("The trees look easy to break.")
         elseif _sTarget == "self" or _sTarget == "myself" then
-            print("Very handsome.")
+            print("Very cool.")
         else
             local tItem = nil
             local sItem = findItem(room.items, _sTarget)
