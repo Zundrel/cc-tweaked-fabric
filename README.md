@@ -46,40 +46,6 @@ Main Known issue
 	* Better End
 	* Better Nether
 
-### Building from sources
+## [Building from sources](https://github.com/CaffeineMC/sodium-fabric#building-from-sources)
+Hover over 'Building from sources'
 
-Support is not provided for setting up build environments or compiling the mod. We ask that
-users who are looking to get their hands dirty with the code have a basic understanding of compiling Java/Gradle
-projects. The basic overview is provided here for those familiar.
-
-### Requirements
-
-- JRE 8 or newer (for running Gradle)
-- JDK 8 (optional)
-  - If you neither have JDK 8 available on your shell's path or installed through a supported package manager (such as
-[SDKMAN](https://sdkman.io)), Gradle will automatically download a suitable toolchain from the [AdoptOpenJDK project](https://adoptopenjdk.net/)
-and use it to compile the project. For more information on what package managers are supported and how you can
-customize this behavior on a system-wide level, please see [Gradle's Toolchain user guide](https://docs.gradle.org/current/userguide/toolchains.html).
-- Gradle 6.7 or newer (optional)
-  - The [Gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:using_wrapper) is provided in
-    this repository can be used instead of installing a suitable version of Gradle yourself. However, if you are building
-    many projects, you may prefer to install it yourself through a suitable package manager as to save disk space and to
-    avoid many different Gradle daemons sitting around in memory.
-
-#### Building with Gradle
-
-Sodium uses a typical Gradle project structure and can be built by simply running the default `build` task. After Gradle
-finishes building the project, you can find the build artifacts (typical mod binaries, and their sources) in
-`build/libs`.
-
-**Tip:** If this is a one-off build, and you would prefer the Gradle daemon does not stick around in memory afterwards,
-try adding the [`--no-daemon` flag](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:disabling_the_daemon)
-to ensure that the daemon is torn down after the build is complete. However, subsequent builds of the project will
-[start more slowly](https://docs.gradle.org/current/userguide/gradle_daemon.html#sec:why_the_daemon) if the Gradle
-daemon is not available to be re-used.
-
-
-Build artifacts ending in `dev` are outputs containing the sources and compiled classes
-before they are remapped into stable intermediary names. If you are working in a developer environment and would
-like to add the mod to your game, you should prefer to use the `modRuntime` or `modCompile` configurations provided by
-Loom instead of these outputs.
