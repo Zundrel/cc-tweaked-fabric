@@ -311,7 +311,7 @@ local bRunning = true
 local tMap = { { {} } }
 local x, y, z = 0, 0, 0
 local inventory = {
-    ["no tea"] = items["no tea"],
+    ["there is no netherite"] = items["there is no netherite"],
 }
 
 local nTurn = 0
