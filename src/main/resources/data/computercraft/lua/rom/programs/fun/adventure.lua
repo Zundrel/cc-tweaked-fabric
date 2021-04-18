@@ -1193,6 +1193,7 @@ function commands.badinput()
         "Let me get back to you on that one.",
         "That doesn't make any sense.",
         "What?",
+        "If you are confused say help?",
     }
     print(tResponses[math.random(1, #tResponses)])
 end
@@ -1201,7 +1202,7 @@ function commands.noinput()
     local tResponses = {
         "Speak up.",
         "Enunciate.",
-        "Project your voice.",
+        "Let's try that again.",
         "Don't be shy.",
         "Use your words.",
     }
