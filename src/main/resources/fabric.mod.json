@@ -8,7 +8,7 @@
     "icon": "assets/computercraft/pack.png",
     "contact": {
         "homepage": "https://github.com/3prm3/cc-retweaked",
-        "issues": "https://github.com/Merith-TK/cc-restitched"
+        "issues": "https://github.com/3prm3/cc-retweaked/issues"
     },
     "authors": [
         "Daniel Ratcliffe",
@@ -16,6 +16,7 @@
         "SquidDev",
         "parly",
         "Merith.TK",
+        "Zundrel",
         "3prm3"
     ],
     "depends": {
