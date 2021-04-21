@@ -1,5 +1,4 @@
 local completion = require "cc.shell.completion"
-
 -- Setup paths
 local sPath = ".:/rom/programs"
 if term.isColor() then
@@ -24,7 +23,6 @@ if http then
 end
 shell.setPath(sPath)
 help.setPath("/rom/help")
-
 -- Setup aliases
 shell.setAlias("ls", "list")
 shell.setAlias("dir", "list")
@@ -38,9 +36,7 @@ if term.isColor() then
     shell.setAlias("background", "bg")
     shell.setAlias("foreground", "fg")
 end
-
 -- Setup completion functions
-
 local function completePastebinPut(shell, text, previous)
     if previous[2] == "put" then
         return fs.complete(text, shell.dir(), true, false)
@@ -49,7 +45,6 @@ end
 
 shell.setCompletionFunction("rom/programs/alias.lua", completion.build(nil, completion.program))
 shell.setCompletionFunction("rom/programs/cd.lua", completion.build(completion.dir))
-shell.setCompletionFunction("rom/programs/clear.lua", completion.build({ completion.choice, { "screen", "palette", "all" } }))
 shell.setCompletionFunction("rom/programs/copy.lua", completion.build(
     { completion.dirOrFile, true },
     completion.dirOrFile
@@ -100,7 +95,6 @@ shell.setCompletionFunction("rom/programs/http/pastebin.lua", completion.build(
 shell.setCompletionFunction("rom/programs/rednet/chat.lua", completion.build({ completion.choice, { "host ", "join " } }))
 shell.setCompletionFunction("rom/programs/command/exec.lua", completion.build(completion.command))
 shell.setCompletionFunction("rom/programs/http/wget.lua", completion.build({ completion.choice, { "run " } }))
-
 if turtle then
     shell.setCompletionFunction("rom/programs/turtle/go.lua", completion.build(
         { completion.choice, { "left", "right", "forward", "back", "down", "up" }, true, many = true }
@@ -116,7 +110,6 @@ if turtle then
         { completion.choice, { "left", "right" } }
     ))
 end
-
 -- Run autorun files
 if fs.exists("/rom/autorun") and fs.isDir("/rom/autorun") then
     local tFiles = fs.list("/rom/autorun")
@@ -129,7 +122,6 @@ if fs.exists("/rom/autorun") and fs.isDir("/rom/autorun") then
         end
     end
 end
-
 local function findStartups(sBaseDir)
     local tStartups = nil
     local sBasePath = "/" .. fs.combine(sBaseDir, "startup")
@@ -152,12 +144,10 @@ local function findStartups(sBaseDir)
     end
     return tStartups
 end
-
 -- Show MOTD
 if settings.get("motd.enable") then
     shell.run("motd")
 end
-
 -- Run the user created startup, either from disk drives or the root
 local tUserStartups = nil
 if settings.get("shell.allow_startup") then
