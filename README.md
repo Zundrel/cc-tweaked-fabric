@@ -1,10 +1,10 @@
 # ![CC: ReTweaked](logo.png)
-This is an WIP [fork](https://github.com/Merith-TK/cc-restitched) of a [fork](https://github.com/Zundrel/cc-tweaked-fabric) of a [fork](https://github.com/ArchivedProjects/cc-tweaked-fabric)  of a [fork/port](https://github.com/mystiacraft/cc-tweaked-fabric) of an [update/port/fork](https://github.com/SquidDev-CC/CC-Tweaked) of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
+This is an WIP [fork](https://github.com/ArchivedProjects/cc-tweaked-fabric)  of a [fork/port](https://github.com/mystiacraft/cc-tweaked-fabric) of an [update/port/fork](https://github.com/SquidDev-CC/CC-Tweaked) of [ComputerCraft](https://github.com/dan200/ComputerCraft), adding programmable computers,
 turtles and more to Minecraft.
 
 ## What?
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
-The only problem I have with is... the old textures so I manually am fixing and tweaking them along with some other things.
+You guys like old textures?????
 
 ## Contributing
 Any contribution is welcome, be that using the mod, reporting bugs or contributing code. In order to start helping
