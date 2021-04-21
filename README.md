@@ -4,7 +4,7 @@ turtles and more to Minecraft.
 
 ## What?
 ComputerCraft is the first mod that I have ever used and also one of my favorite mods.
-You guys like old textures?????
+
 
 ## Contributing
 Any contribution is welcome, be that using the mod, reporting bugs or contributing code. In order to start helping
