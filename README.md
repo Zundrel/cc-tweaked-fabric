@@ -18,7 +18,7 @@ develop CC:T, you'll need to follow these steps:
 -**Make a pull request** press the 'New Pull Request' button and set the repository on the left to 3prm3/cc-retweaked and set the repository on the right to your repository.
 
 ## Bleeding Edge Builds
-Bleeding edge builds can be found [here](https://github.com/3prm3/cc-retweaked/actions) at github actions to simplify things 
+Bleeding edge builds can be found [here](https://github.com/Zundrel/cc-tweaked-fabric/actions) at github actions to simplify things 
 
 ## Community
 If you need help getting started with CC: Tweaked, want to show off your latest project, or just want to chat about
