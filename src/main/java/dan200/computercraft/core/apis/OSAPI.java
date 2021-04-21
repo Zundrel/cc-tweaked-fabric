@@ -428,4 +428,3 @@ public class OSAPI implements ILuaAPI {
     }
 
 }
-© 2021 GitHub, Inc.
