@@ -1,41 +1,20 @@
 {
     "schemaVersion": 1,
     "id": "computercraft",
-    "name": "CC:Restitched",
+    "name": "CC:T for Fabric",
     "version": "${version}",
-    "description": "CC: ReTweaked for Fabric.",
+    "description": "A fork of CC: Tweaked for use with the latest Fabric.",
     "license": "ComputerCraft Public License",
     "icon": "assets/computercraft/pack.png",
     "contact": {
-        "homepage": "https://github.com/3prm3/cc-retweaked",
-        "issues": "https://github.com/3prm3/cc-retweaked/issues"
+        "homepage": "https://github.com/mystiacraft/cc-tweaked-fabric",
+        "issues": "https://github.com/mystiacraft/cc-tweaked-fabric/issues"
     },
     "authors": [
         "Daniel Ratcliffe",
         "Aaron Mills",
         "SquidDev",
-        "parly",
-        "Merith.TK",
-        "Zundrel",
-        "3prm3"
+        "parly"
     ],
     "depends": {
         "fabricloader": ">=0.4.0",
-        "fabric": "*"
-    },
-    "suggests": {
-        "modmenu": "*"
-    },
-    "environment": "*",
-    "entrypoints": {
-        "main": [
-            "dan200.computercraft.ComputerCraft"
-        ],
-        "client": [
-            "dan200.computercraft.client.proxy.ComputerCraftProxyClient"
-        ]
-    },
-    "mixins": [
-        "computercraft.mixins.json"
-    ]
-}
